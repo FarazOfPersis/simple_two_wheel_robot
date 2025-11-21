@@ -1,0 +1,6 @@
+[console_scripts]
+complementary_filter_node = robot_estimation.complementary_filter_node:main
+imu_filter_node = robot_estimation.imu_filter_node:main
+motor_controller_node = robot_estimation.motor_controller_node:main
+odometry_node = robot_estimation.odometry_node:main
+

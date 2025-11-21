@@ -1,0 +1,200 @@
+[0.099s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.099s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7a8fc99603a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7a8fc992ffd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7a8fc992ffd0>>)
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.271s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.271s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/faraz/robotic'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course) by extension 'ros'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course) by extensions ['cmake', 'python']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course) by extension 'cmake'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course) by extension 'python'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course) by extensions ['python_setup_py']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course) by extension 'python_setup_py'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_description) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_description) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_description) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_description) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_description) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_description) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_description) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_description) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'robotic_course/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_estimation) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_estimation) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_estimation) by extension 'ignore_ament_install'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_estimation) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_estimation) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_estimation) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_estimation) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_estimation) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(robotic_course/robot_estimation) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'robotic_course/robot_estimation' with type 'ros.ament_python' and name 'robot_estimation'
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.336s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.337s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/faraz/robotic/install/robot_estimation' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.337s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/faraz/robotic/install/robot_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.337s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/faraz/robotic/install/robot_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.338s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/faraz/robotic/install
+[0.340s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 364 installed packages in /opt/ros/humble
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faraz/robotic/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faraz/robotic/install/robot_description', 'merge_install': False, 'path': '/home/faraz/robotic/robotic_course/robot_description', 'symlink_install': True, 'test_result_base': None}
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'robot_estimation' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'robot_estimation' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'robot_estimation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'robot_estimation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'robot_estimation' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'robot_estimation' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'robot_estimation' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'robot_estimation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'robot_estimation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'robot_estimation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/faraz/robotic/build/robot_estimation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/faraz/robotic/install/robot_estimation', 'merge_install': False, 'path': '/home/faraz/robotic/robotic_course/robot_estimation', 'symlink_install': True, 'test_result_base': None}
+[0.389s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.390s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.390s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/faraz/robotic/robotic_course/robot_description' with build type 'ament_cmake'
+[0.390s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/faraz/robotic/robotic_course/robot_description'
+[0.392s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.396s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/faraz/robotic/robotic_course/robot_estimation' with build type 'ament_python'
+[0.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_estimation', 'ament_prefix_path')
+[0.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faraz/robotic/install/robot_estimation/share/robot_estimation/hook/ament_prefix_path.ps1'
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faraz/robotic/install/robot_estimation/share/robot_estimation/hook/ament_prefix_path.dsv'
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faraz/robotic/install/robot_estimation/share/robot_estimation/hook/ament_prefix_path.sh'
+[0.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.398s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faraz/robotic/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/robotic/install/robot_estimation:/opt/ros/humble /usr/local/bin/cmake /home/faraz/robotic/robotic_course/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/faraz/robotic/install/robot_description
+[0.674s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/faraz/robotic/robotic_course/robot_estimation'
+[0.674s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.674s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faraz/robotic/build/robot_estimation': PYTHONPATH=/home/faraz/robotic/build/robot_estimation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faraz/robotic/install/robot_estimation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/faraz/robotic/build/robot_estimation/build --no-deps symlink_data
+[1.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_estimation', 'pythonpath_develop')
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faraz/robotic/build/robot_estimation/share/robot_estimation/hook/pythonpath_develop.ps1'
+[1.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faraz/robotic/build/robot_estimation' returned '0': PYTHONPATH=/home/faraz/robotic/build/robot_estimation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faraz/robotic/install/robot_estimation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/faraz/robotic/build/robot_estimation/build --no-deps symlink_data
+[1.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faraz/robotic/build/robot_estimation/share/robot_estimation/hook/pythonpath_develop.dsv'
+[1.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faraz/robotic/build/robot_estimation/share/robot_estimation/hook/pythonpath_develop.sh'
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_estimation' for CMake module files
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_estimation' for CMake config files
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_estimation/lib'
+[1.661s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_estimation/bin'
+[1.661s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_estimation/lib/pkgconfig/robot_estimation.pc'
+[1.661s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_estimation/lib/python3.10/site-packages'
+[1.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_estimation', 'pythonpath')
+[1.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faraz/robotic/install/robot_estimation/share/robot_estimation/hook/pythonpath.ps1'
+[1.663s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faraz/robotic/install/robot_estimation/share/robot_estimation/hook/pythonpath.dsv'
+[1.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faraz/robotic/install/robot_estimation/share/robot_estimation/hook/pythonpath.sh'
+[1.665s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_estimation/bin'
+[1.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_estimation)
+[1.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/faraz/robotic/install/robot_estimation/share/robot_estimation/package.ps1'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faraz/robotic/install/robot_estimation/share/robot_estimation/package.dsv'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/faraz/robotic/install/robot_estimation/share/robot_estimation/package.sh'
+[1.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/faraz/robotic/install/robot_estimation/share/robot_estimation/package.bash'
+[1.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/faraz/robotic/install/robot_estimation/share/robot_estimation/package.zsh'
+[1.673s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faraz/robotic/install/robot_estimation/share/colcon-core/packages/robot_estimation)
+[2.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faraz/robotic/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/robotic/install/robot_estimation:/opt/ros/humble /usr/local/bin/cmake /home/faraz/robotic/robotic_course/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/faraz/robotic/install/robot_description
+[2.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faraz/robotic/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/robotic/install/robot_estimation:/opt/ros/humble /usr/local/bin/cmake --build /home/faraz/robotic/build/robot_description -- -j8 -l8
+[18.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faraz/robotic/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/robotic/install/robot_estimation:/opt/ros/humble /usr/local/bin/cmake --build /home/faraz/robotic/build/robot_description -- -j8 -l8
+[18.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/faraz/robotic/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/robotic/install/robot_estimation:/opt/ros/humble /usr/local/bin/cmake --install /home/faraz/robotic/build/robot_description
+[18.868s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[18.868s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_description' for CMake module files
+[18.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/faraz/robotic/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/robotic/install/robot_estimation:/opt/ros/humble /usr/local/bin/cmake --install /home/faraz/robotic/build/robot_description
+[18.869s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_description' for CMake config files
+[18.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[18.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faraz/robotic/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[18.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faraz/robotic/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[18.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faraz/robotic/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[18.870s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_description/lib'
+[18.870s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_description/bin'
+[18.870s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_description/lib/pkgconfig/robot_description.pc'
+[18.871s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_description/lib/python3.10/site-packages'
+[18.871s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_description/bin'
+[18.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/faraz/robotic/install/robot_description/share/robot_description/package.ps1'
+[18.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faraz/robotic/install/robot_description/share/robot_description/package.dsv'
+[18.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/faraz/robotic/install/robot_description/share/robot_description/package.sh'
+[18.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/faraz/robotic/install/robot_description/share/robot_description/package.bash'
+[18.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/faraz/robotic/install/robot_description/share/robot_description/package.zsh'
+[18.873s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faraz/robotic/install/robot_description/share/colcon-core/packages/robot_description)
+[18.873s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[18.874s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_description' for CMake module files
+[18.874s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_description' for CMake config files
+[18.874s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'cmake_prefix_path')
+[18.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faraz/robotic/install/robot_description/share/robot_description/hook/cmake_prefix_path.ps1'
+[18.875s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/faraz/robotic/install/robot_description/share/robot_description/hook/cmake_prefix_path.dsv'
+[18.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/faraz/robotic/install/robot_description/share/robot_description/hook/cmake_prefix_path.sh'
+[18.876s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_description/lib'
+[18.876s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_description/bin'
+[18.876s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_description/lib/pkgconfig/robot_description.pc'
+[18.876s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_description/lib/python3.10/site-packages'
+[18.877s] Level 1:colcon.colcon_core.environment:checking '/home/faraz/robotic/install/robot_description/bin'
+[18.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/faraz/robotic/install/robot_description/share/robot_description/package.ps1'
+[18.877s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/faraz/robotic/install/robot_description/share/robot_description/package.dsv'
+[18.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/faraz/robotic/install/robot_description/share/robot_description/package.sh'
+[18.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/faraz/robotic/install/robot_description/share/robot_description/package.bash'
+[18.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/faraz/robotic/install/robot_description/share/robot_description/package.zsh'
+[18.879s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/faraz/robotic/install/robot_description/share/colcon-core/packages/robot_description)
+[18.879s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[18.879s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[18.879s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[18.879s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[18.885s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[18.885s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[18.885s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[18.895s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[18.895s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faraz/robotic/install/local_setup.ps1'
+[18.896s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/faraz/robotic/install/_local_setup_util_ps1.py'
+[18.897s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faraz/robotic/install/setup.ps1'
+[18.898s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faraz/robotic/install/local_setup.sh'
+[18.899s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/faraz/robotic/install/_local_setup_util_sh.py'
+[18.899s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faraz/robotic/install/setup.sh'
+[18.900s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faraz/robotic/install/local_setup.bash'
+[18.900s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faraz/robotic/install/setup.bash'
+[18.901s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/faraz/robotic/install/local_setup.zsh'
+[18.902s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/faraz/robotic/install/setup.zsh'
