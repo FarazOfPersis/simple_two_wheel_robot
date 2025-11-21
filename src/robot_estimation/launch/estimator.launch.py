@@ -9,7 +9,8 @@ def generate_launch_description():
     # Define common parameters for the nodes
     robot_params = {
         'wheel_radius': 0.1,
-        'wheel_separation': 0.6
+        'wheel_separation': 0.6,
+        'use_sim_time': True
     }
     
     # 1. Motor Controller Node (Inverse Kinematics)
@@ -45,12 +46,22 @@ def generate_launch_description():
         executable='odometry_node',
         name='odometry_node',
         output='screen',
-        parameters=[robot_params]
+        parameters=[robot_params],
+
+    )
+
+    test_node = Node(
+        package=pkg_name,
+        executable='estimator_test_node',
+        name='estimator_test_node',
+        output='screen',
+        emulate_tty=True, # Recommended for seeing print output clearly
     )
 
     return LaunchDescription([
         motor_controller_node,
         imu_filter_node,
-        # complementary_filter_node,
-        # odometry_node,
+        complementary_filter_node,
+        odometry_node,
+        # test_node,
     ])

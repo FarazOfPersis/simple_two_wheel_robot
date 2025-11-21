@@ -1,12 +1,18 @@
 #!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
+# Import Time for robust time object handling
+from rclpy.time import Time
+# Import QoS classes
+from rclpy.qos import QoSProfile, qos_profile_sensor_data
+
 from nav_msgs.msg import Odometry
 from sensor_msgs.msg import JointState
 from geometry_msgs.msg import TransformStamped
 from tf2_ros import TransformBroadcaster
 import math
 import numpy as np
+from tf_transformations import quaternion_from_euler
 
 class OdometryNode(Node):
     def __init__(self):
@@ -26,7 +32,8 @@ class OdometryNode(Node):
         
         # Joint State tracking (for calculating velocity)
         self.last_wheel_pos = {'left_wheel_joint': 0.0, 'right_wheel_joint': 0.0}
-        self.last_time = self.get_clock().now()
+        # Initialize last_time as an rclpy Time object corresponding to the current node time
+        self.last_time = self.get_clock().now() 
 
         # Publishers and Subscribers
         self.odom_pub = self.create_publisher(Odometry, '/odom', 10)
@@ -34,17 +41,23 @@ class OdometryNode(Node):
             JointState,
             '/joint_states', # Assuming Gazebo/Bridge publishes wheel data here
             self.joint_state_callback,
-            10
+            # *** FIX: Use sensor data QoS to handle potential outdated timestamps ***
+            qos_profile_sensor_data
         )
         self.tf_broadcaster = TransformBroadcaster(self)
         
         self.get_logger().info('Odometry Node started')
 
     def joint_state_callback(self, msg):
-        current_time = self.get_clock().now()
-        dt = (current_time - self.last_time).nanoseconds * 1e-9
+        # Use the timestamp from the JointState message header for time sync
+        # Note: We use Time.from_msg(msg.header.stamp) for robust time object creation
+        current_time_ros = Time.from_msg(msg.header.stamp)
         
-        if dt == 0.0:
+        # Calculate time step (dt) using the time objects
+        dt = (current_time_ros - self.last_time).nanoseconds * 1e-9
+        
+        if dt <= 0.0:
+            # Ignore messages that are older than or simultaneous with the last processed message
             return
 
         try:
@@ -81,11 +94,13 @@ class OdometryNode(Node):
             # Update State
             self.last_wheel_pos['right_wheel_joint'] = curr_pos_R
             self.last_wheel_pos['left_wheel_joint'] = curr_pos_L
-            self.last_time = current_time
+            # Update last_time with the current processed time
+            self.last_time = current_time_ros 
 
             # 6. Publish Odometry Message
             odom_msg = Odometry()
-            odom_msg.header.stamp = current_time.to_msg()
+            # Use the input message's timestamp for the output
+            odom_msg.header.stamp = msg.header.stamp 
             odom_msg.header.frame_id = 'odom'
             odom_msg.child_frame_id = 'base_link'
 
@@ -105,7 +120,8 @@ class OdometryNode(Node):
 
             # 7. Broadcast TF (odom -> base_link)
             t = TransformStamped()
-            t.header.stamp = current_time.to_msg()
+            # Use the input message's timestamp for the TF message
+            t.header.stamp = msg.header.stamp 
             t.header.frame_id = 'odom'
             t.child_frame_id = 'base_link'
             t.transform.translation.x = self.x
@@ -122,6 +138,9 @@ class OdometryNode(Node):
             self.get_logger().error("JointState missing 'right_wheel_joint' or 'left_wheel_joint'")
 
 def main(args=None):
+    # Ensure necessary imports are available if using Time objects
+    import rclpy.time 
+    
     rclpy.init(args=args)
     node = OdometryNode()
     rclpy.spin(node)

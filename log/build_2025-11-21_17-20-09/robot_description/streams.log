@@ -1,0 +1,95 @@
+[0.015s] Invoking command in '/home/faraz/robotic/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/robotic/install/robot_estimation:/opt/ros/humble /usr/local/bin/cmake /home/faraz/robotic/src/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/faraz/robotic/install/robot_description
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.122s] -- The CXX compiler identification is GNU 11.4.0
+[0.133s] -- Detecting C compiler ABI info
+[0.186s] -- Detecting C compiler ABI info - done
+[0.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.204s] -- Detecting C compile features
+[0.205s] -- Detecting C compile features - done
+[0.209s] -- Detecting CXX compiler ABI info
+[0.278s] -- Detecting CXX compiler ABI info - done
+[0.303s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.303s] -- Detecting CXX compile features
+[0.304s] -- Detecting CXX compile features - done
+[0.307s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.448s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.511s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.543s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.596s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.602s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.614s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.634s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.657s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.716s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.719s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.810s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.846s] -- Found FastRTPS: /opt/ros/humble/include
+[0.900s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.911s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.976s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.978s] -- Found Threads: TRUE
+[1.069s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.135s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.186s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.209s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[1.242s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.443s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.542s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.543s] -- Configured cppcheck include dirs: 
+[1.543s] -- Configured cppcheck exclude dirs and/or files: 
+[1.543s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.544s] -- Added test 'lint_cmake' to check CMake code style
+[1.545s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.547s] -- Added test 'uncrustify' to check C / C++ code style
+[1.547s] -- Configured uncrustify additional arguments: 
+[1.548s] -- Added test 'xmllint' to check XML markup files
+[1.550s] -- Configuring done (1.5s)
+[1.574s] -- Generating done (0.0s)
+[1.581s] -- Build files have been written to: /home/faraz/robotic/build/robot_description
+[1.594s] Invoked command in '/home/faraz/robotic/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/robotic/install/robot_estimation:/opt/ros/humble /usr/local/bin/cmake /home/faraz/robotic/src/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/faraz/robotic/install/robot_description
+[1.597s] Invoking command in '/home/faraz/robotic/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/robotic/install/robot_estimation:/opt/ros/humble /usr/local/bin/cmake --build /home/faraz/robotic/build/robot_description -- -j8 -l8
+[1.620s] [ 33%] [32mBuilding CXX object CMakeFiles/motor_command_node.dir/scripts/motor_command.cpp.o[0m
+[1.620s] [ 33%] [32mBuilding CXX object CMakeFiles/frame_id_converter_node.dir/scripts/frame_id_converter.cpp.o[0m
+[1.620s] [ 50%] [32mBuilding CXX object CMakeFiles/ekf_diff_imu_node.dir/scripts/ekf_diff_imu.cpp.o[0m
+[11.251s] [ 66%] [32m[1mLinking CXX executable motor_command_node[0m
+[11.424s] [ 83%] [32m[1mLinking CXX executable frame_id_converter_node[0m
+[11.770s] [ 83%] Built target motor_command_node
+[11.914s] [ 83%] Built target frame_id_converter_node
+[16.656s] [100%] [32m[1mLinking CXX executable ekf_diff_imu_node[0m
+[17.406s] [100%] Built target ekf_diff_imu_node
+[17.412s] Invoked command in '/home/faraz/robotic/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/robotic/install/robot_estimation:/opt/ros/humble /usr/local/bin/cmake --build /home/faraz/robotic/build/robot_description -- -j8 -l8
+[17.416s] Invoking command in '/home/faraz/robotic/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/robotic/install/robot_estimation:/opt/ros/humble /usr/local/bin/cmake --install /home/faraz/robotic/build/robot_description
+[17.418s] -- Install configuration: ""
+[17.419s] -- Execute custom install script
+[17.420s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/src/description/robot.urdf
+[17.422s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/src/meshes/zed.STL
+[17.425s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/launch/display.launch.py
+[17.427s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/launch/gazebo.launch.py
+[17.429s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/rviz/config.rviz
+[17.431s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/config/gz_bridge.yaml
+[17.434s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/config/lidar.config.rviz
+[17.436s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/config/rviz.config.rviz
+[17.438s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/world/depot.sdf
+[17.440s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/world/test.sdf
+[17.443s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/scripts/ekf_diff_imu.cpp
+[17.445s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/scripts/frame_id_converter.cpp
+[17.447s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/scripts/motor_command.cpp
+[17.449s] -- Symlinking: /home/faraz/robotic/install/robot_description/lib/robot_description/frame_id_converter_node
+[17.452s] -- Symlinking: /home/faraz/robotic/install/robot_description/lib/robot_description/ekf_diff_imu_node
+[17.454s] -- Symlinking: /home/faraz/robotic/install/robot_description/lib/robot_description/motor_command_node
+[17.456s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[17.458s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[17.461s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[17.463s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[17.465s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/environment/path.sh
+[17.467s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/environment/path.dsv
+[17.469s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/local_setup.bash
+[17.472s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/local_setup.sh
+[17.474s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/local_setup.zsh
+[17.476s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/local_setup.dsv
+[17.479s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/package.dsv
+[17.481s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[17.483s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[17.485s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[17.488s] -- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/package.xml
+[17.492s] Invoked command in '/home/faraz/robotic/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/faraz/robotic/install/robot_estimation:/opt/ros/humble /usr/local/bin/cmake --install /home/faraz/robotic/build/robot_description

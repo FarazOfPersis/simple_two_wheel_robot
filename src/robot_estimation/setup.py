@@ -27,6 +27,7 @@ setup(
             'imu_filter_node = robot_estimation.imu_filter_node:main',
             'complementary_filter_node = robot_estimation.complementary_filter_node:main',
             'odometry_node = robot_estimation.odometry_node:main',
+            'estimator_test_node = robot_estimation.estimator_test_node:main',
         ],
     },
 )

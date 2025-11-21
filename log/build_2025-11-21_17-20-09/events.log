@@ -1,0 +1,310 @@
+[0.000000] (-) TimerEvent: {}
+[0.000115] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000181] (robot_estimation) JobQueued: {'identifier': 'robot_estimation', 'dependencies': OrderedDict()}
+[0.000219] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.005757] (robot_estimation) JobStarted: {'identifier': 'robot_estimation'}
+[0.011606] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.012415] (robot_description) Command: {'cmd': ['/usr/local/bin/cmake', '/home/faraz/robotic/src/robot_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/faraz/robotic/install/robot_description'], 'cwd': '/home/faraz/robotic/build/robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'faraz'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '13141'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/faraz'), ('OLDPWD', '/home/faraz/robotic/robotic_course'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QSYS_ROOTDIR', '/home/faraz/intelFPGA_lite/22.1std/quartus/sopc_builder/bin'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/faraz/robotic/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'faraz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'faraz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/faraz-VivoBook-15-ASUS-Laptop-X570UD:@/tmp/.ICE-unix/2270,unix/faraz-VivoBook-15-ASUS-Laptop-X570UD:/tmp/.ICE-unix/2270'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4b637f52_cdac_4e20_85d1_dea1e0c359f7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5DEMG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXJTgrYd/agent.13140'), ('AMENT_PREFIX_PATH', '/home/faraz/robotic/install/robot_estimation:/home/faraz/robotic/install/robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/usr/share/ignition/gazebo/fuel/fuel.ignitionrobotics.org/openrobotics/models'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/faraz/robotic/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/faraz/robotic/build/robot_estimation:/home/faraz/robotic/install/robot_estimation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/faraz/robotic/install/robot_description:/home/faraz/robotic/install/robot_estimation:/opt/ros/humble')]), 'shell': False}
+[0.064025] (robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099328] (-) TimerEvent: {}
+[0.121820] (robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.132980] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.186398] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199421] (-) TimerEvent: {}
+[0.204272] (robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.204622] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.205035] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.209029] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.277924] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.299549] (-) TimerEvent: {}
+[0.303180] (robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.303529] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.304118] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.307356] (robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399624] (-) TimerEvent: {}
+[0.448210] (robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter\n'}
+[0.499708] (-) TimerEvent: {}
+[0.511520] (robot_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.543455] (robot_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.596252] (robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.599779] (-) TimerEvent: {}
+[0.602612] (robot_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.613788] (robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.631951] (robot_estimation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/faraz/robotic/build/robot_estimation/build', '--no-deps', 'symlink_data'], 'cwd': '/home/faraz/robotic/build/robot_estimation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'faraz', 'LC_TIME': 'en_US.UTF-8', 'SSH_AGENT_PID': '13141', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/faraz', 'OLDPWD': '/home/faraz/robotic/robotic_course', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '2306', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QSYS_ROOTDIR': '/home/faraz/intelFPGA_lite/22.1std/quartus/sopc_builder/bin', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/faraz/robotic/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'faraz', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'faraz', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/faraz-VivoBook-15-ASUS-Laptop-X570UD:@/tmp/.ICE-unix/2270,unix/faraz-VivoBook-15-ASUS-Laptop-X570UD:/tmp/.ICE-unix/2270', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4b637f52_cdac_4e20_85d1_dea1e0c359f7', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.5DEMG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXJTgrYd/agent.13140', 'AMENT_PREFIX_PATH': '/home/faraz/robotic/install/robot_estimation:/home/faraz/robotic/install/robot_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/usr/share/ignition/gazebo/fuel/fuel.ignitionrobotics.org/openrobotics/models', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/faraz/robotic/build/robot_estimation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/faraz/robotic/build/robot_estimation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faraz/robotic/install/robot_estimation/lib/python3.10/site-packages:/home/faraz/robotic/build/robot_estimation:/home/faraz/robotic/install/robot_estimation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/faraz/robotic/install/robot_description'}, 'shell': False}
+[0.634243] (robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.656650] (robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.699898] (-) TimerEvent: {}
+[0.715714] (robot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.718795] (robot_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800040] (-) TimerEvent: {}
+[0.810442] (robot_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")\n'}
+[0.846569] (robot_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include\n'}
+[0.900140] (-) TimerEvent: {}
+[0.900385] (robot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.901229] (robot_estimation) StdoutLine: {'line': b'running develop\n'}
+[0.911370] (robot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.975818] (robot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.977702] (robot_description) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.000261] (-) TimerEvent: {}
+[1.069299] (robot_description) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.100404] (-) TimerEvent: {}
+[1.106981] (robot_estimation) StdoutLine: {'line': b'running egg_info\n'}
+[1.107222] (robot_estimation) StdoutLine: {'line': b'creating robot_estimation.egg-info\n'}
+[1.107577] (robot_estimation) StdoutLine: {'line': b'writing robot_estimation.egg-info/PKG-INFO\n'}
+[1.107779] (robot_estimation) StdoutLine: {'line': b'writing dependency_links to robot_estimation.egg-info/dependency_links.txt\n'}
+[1.107963] (robot_estimation) StdoutLine: {'line': b'writing entry points to robot_estimation.egg-info/entry_points.txt\n'}
+[1.108181] (robot_estimation) StdoutLine: {'line': b'writing requirements to robot_estimation.egg-info/requires.txt\n'}
+[1.108316] (robot_estimation) StdoutLine: {'line': b'writing top-level names to robot_estimation.egg-info/top_level.txt\n'}
+[1.108485] (robot_estimation) StdoutLine: {'line': b"writing manifest file 'robot_estimation.egg-info/SOURCES.txt'\n"}
+[1.110662] (robot_estimation) StdoutLine: {'line': b"reading manifest file 'robot_estimation.egg-info/SOURCES.txt'\n"}
+[1.111653] (robot_estimation) StdoutLine: {'line': b"writing manifest file 'robot_estimation.egg-info/SOURCES.txt'\n"}
+[1.114193] (robot_estimation) StdoutLine: {'line': b'running build_ext\n'}
+[1.114498] (robot_estimation) StdoutLine: {'line': b'Creating /home/faraz/robotic/install/robot_estimation/lib/python3.10/site-packages/robot-estimation.egg-link (link to .)\n'}
+[1.116103] (robot_estimation) StdoutLine: {'line': b'Installing complementary_filter_node script to /home/faraz/robotic/install/robot_estimation/lib/robot_estimation\n'}
+[1.116384] (robot_estimation) StdoutLine: {'line': b'Installing estimator_test_node script to /home/faraz/robotic/install/robot_estimation/lib/robot_estimation\n'}
+[1.117043] (robot_estimation) StdoutLine: {'line': b'Installing imu_filter_node script to /home/faraz/robotic/install/robot_estimation/lib/robot_estimation\n'}
+[1.117413] (robot_estimation) StdoutLine: {'line': b'Installing motor_controller_node script to /home/faraz/robotic/install/robot_estimation/lib/robot_estimation\n'}
+[1.117663] (robot_estimation) StdoutLine: {'line': b'Installing odometry_node script to /home/faraz/robotic/install/robot_estimation/lib/robot_estimation\n'}
+[1.118025] (robot_estimation) StdoutLine: {'line': b'\n'}
+[1.118195] (robot_estimation) StdoutLine: {'line': b'Installed /home/faraz/robotic/build/robot_estimation\n'}
+[1.118341] (robot_estimation) StdoutLine: {'line': b'running symlink_data\n'}
+[1.118476] (robot_estimation) StdoutLine: {'line': b'creating /home/faraz/robotic/install/robot_estimation/share/ament_index\n'}
+[1.118668] (robot_estimation) StdoutLine: {'line': b'creating /home/faraz/robotic/install/robot_estimation/share/ament_index/resource_index\n'}
+[1.118803] (robot_estimation) StdoutLine: {'line': b'creating /home/faraz/robotic/install/robot_estimation/share/ament_index/resource_index/packages\n'}
+[1.118935] (robot_estimation) StdoutLine: {'line': b'symbolically linking /home/faraz/robotic/build/robot_estimation/resource/robot_estimation -> /home/faraz/robotic/install/robot_estimation/share/ament_index/resource_index/packages\n'}
+[1.119065] (robot_estimation) StdoutLine: {'line': b'symbolically linking /home/faraz/robotic/build/robot_estimation/package.xml -> /home/faraz/robotic/install/robot_estimation/share/robot_estimation\n'}
+[1.119199] (robot_estimation) StdoutLine: {'line': b'creating /home/faraz/robotic/install/robot_estimation/share/robot_estimation/launch\n'}
+[1.119313] (robot_estimation) StdoutLine: {'line': b'symbolically linking /home/faraz/robotic/build/robot_estimation/launch/estimator.launch.py -> /home/faraz/robotic/install/robot_estimation/share/robot_estimation/launch\n'}
+[1.135060] (robot_description) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.164070] (robot_estimation) CommandEnded: {'returncode': 0}
+[1.185992] (robot_estimation) JobEnded: {'identifier': 'robot_estimation', 'rc': 0}
+[1.186561] (robot_description) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.200526] (-) TimerEvent: {}
+[1.208711] (robot_description) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.242538] (robot_description) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.300623] (-) TimerEvent: {}
+[1.401017] (-) TimerEvent: {}
+[1.442978] (robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.501127] (-) TimerEvent: {}
+[1.542481] (robot_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.542710] (robot_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.542801] (robot_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.543588] (robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.544593] (robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.545361] (robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.547482] (robot_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.547605] (robot_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.548211] (robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.549955] (robot_description) StdoutLine: {'line': b'-- Configuring done (1.5s)\n'}
+[1.574006] (robot_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.581010] (robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/faraz/robotic/build/robot_description\n'}
+[1.594281] (robot_description) CommandEnded: {'returncode': 0}
+[1.594913] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[1.596303] (robot_description) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/faraz/robotic/build/robot_description', '--', '-j8', '-l8'], 'cwd': '/home/faraz/robotic/build/robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'faraz'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '13141'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/faraz'), ('OLDPWD', '/home/faraz/robotic/robotic_course'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QSYS_ROOTDIR', '/home/faraz/intelFPGA_lite/22.1std/quartus/sopc_builder/bin'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/faraz/robotic/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'faraz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'faraz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/faraz-VivoBook-15-ASUS-Laptop-X570UD:@/tmp/.ICE-unix/2270,unix/faraz-VivoBook-15-ASUS-Laptop-X570UD:/tmp/.ICE-unix/2270'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4b637f52_cdac_4e20_85d1_dea1e0c359f7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5DEMG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXJTgrYd/agent.13140'), ('AMENT_PREFIX_PATH', '/home/faraz/robotic/install/robot_estimation:/home/faraz/robotic/install/robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/usr/share/ignition/gazebo/fuel/fuel.ignitionrobotics.org/openrobotics/models'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/faraz/robotic/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/faraz/robotic/build/robot_estimation:/home/faraz/robotic/install/robot_estimation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/faraz/robotic/install/robot_description:/home/faraz/robotic/install/robot_estimation:/opt/ros/humble')]), 'shell': False}
+[1.601258] (-) TimerEvent: {}
+[1.619688] (robot_description) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/motor_command_node.dir/scripts/motor_command.cpp.o\x1b[0m\n'}
+[1.620016] (robot_description) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/frame_id_converter_node.dir/scripts/frame_id_converter.cpp.o\x1b[0m\n'}
+[1.620172] (robot_description) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ekf_diff_imu_node.dir/scripts/ekf_diff_imu.cpp.o\x1b[0m\n'}
+[1.701392] (-) TimerEvent: {}
+[1.801687] (-) TimerEvent: {}
+[1.901970] (-) TimerEvent: {}
+[2.002255] (-) TimerEvent: {}
+[2.102581] (-) TimerEvent: {}
+[2.202817] (-) TimerEvent: {}
+[2.303099] (-) TimerEvent: {}
+[2.403429] (-) TimerEvent: {}
+[2.503731] (-) TimerEvent: {}
+[2.604009] (-) TimerEvent: {}
+[2.704356] (-) TimerEvent: {}
+[2.804701] (-) TimerEvent: {}
+[2.905048] (-) TimerEvent: {}
+[3.005359] (-) TimerEvent: {}
+[3.105682] (-) TimerEvent: {}
+[3.205998] (-) TimerEvent: {}
+[3.306317] (-) TimerEvent: {}
+[3.406624] (-) TimerEvent: {}
+[3.506964] (-) TimerEvent: {}
+[3.607279] (-) TimerEvent: {}
+[3.707613] (-) TimerEvent: {}
+[3.807960] (-) TimerEvent: {}
+[3.908315] (-) TimerEvent: {}
+[4.008628] (-) TimerEvent: {}
+[4.108972] (-) TimerEvent: {}
+[4.209323] (-) TimerEvent: {}
+[4.309626] (-) TimerEvent: {}
+[4.409943] (-) TimerEvent: {}
+[4.510260] (-) TimerEvent: {}
+[4.610564] (-) TimerEvent: {}
+[4.710865] (-) TimerEvent: {}
+[4.811165] (-) TimerEvent: {}
+[4.911481] (-) TimerEvent: {}
+[5.011808] (-) TimerEvent: {}
+[5.112133] (-) TimerEvent: {}
+[5.212448] (-) TimerEvent: {}
+[5.312777] (-) TimerEvent: {}
+[5.413114] (-) TimerEvent: {}
+[5.513444] (-) TimerEvent: {}
+[5.613761] (-) TimerEvent: {}
+[5.714078] (-) TimerEvent: {}
+[5.814395] (-) TimerEvent: {}
+[5.914745] (-) TimerEvent: {}
+[6.015093] (-) TimerEvent: {}
+[6.115466] (-) TimerEvent: {}
+[6.215834] (-) TimerEvent: {}
+[6.316180] (-) TimerEvent: {}
+[6.416526] (-) TimerEvent: {}
+[6.516889] (-) TimerEvent: {}
+[6.617219] (-) TimerEvent: {}
+[6.717594] (-) TimerEvent: {}
+[6.817920] (-) TimerEvent: {}
+[6.918244] (-) TimerEvent: {}
+[7.018578] (-) TimerEvent: {}
+[7.118888] (-) TimerEvent: {}
+[7.219207] (-) TimerEvent: {}
+[7.319521] (-) TimerEvent: {}
+[7.419821] (-) TimerEvent: {}
+[7.520173] (-) TimerEvent: {}
+[7.620511] (-) TimerEvent: {}
+[7.720795] (-) TimerEvent: {}
+[7.821069] (-) TimerEvent: {}
+[7.921348] (-) TimerEvent: {}
+[8.021625] (-) TimerEvent: {}
+[8.121902] (-) TimerEvent: {}
+[8.222140] (-) TimerEvent: {}
+[8.322410] (-) TimerEvent: {}
+[8.422693] (-) TimerEvent: {}
+[8.522939] (-) TimerEvent: {}
+[8.623237] (-) TimerEvent: {}
+[8.723531] (-) TimerEvent: {}
+[8.823824] (-) TimerEvent: {}
+[8.924063] (-) TimerEvent: {}
+[9.024342] (-) TimerEvent: {}
+[9.124598] (-) TimerEvent: {}
+[9.224838] (-) TimerEvent: {}
+[9.325107] (-) TimerEvent: {}
+[9.425388] (-) TimerEvent: {}
+[9.525638] (-) TimerEvent: {}
+[9.625916] (-) TimerEvent: {}
+[9.726178] (-) TimerEvent: {}
+[9.826456] (-) TimerEvent: {}
+[9.926723] (-) TimerEvent: {}
+[10.027008] (-) TimerEvent: {}
+[10.127274] (-) TimerEvent: {}
+[10.227528] (-) TimerEvent: {}
+[10.327805] (-) TimerEvent: {}
+[10.428092] (-) TimerEvent: {}
+[10.528399] (-) TimerEvent: {}
+[10.628648] (-) TimerEvent: {}
+[10.728958] (-) TimerEvent: {}
+[10.829281] (-) TimerEvent: {}
+[10.929615] (-) TimerEvent: {}
+[11.029950] (-) TimerEvent: {}
+[11.130295] (-) TimerEvent: {}
+[11.230706] (-) TimerEvent: {}
+[11.251369] (robot_description) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable motor_command_node\x1b[0m\n'}
+[11.330841] (-) TimerEvent: {}
+[11.424144] (robot_description) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable frame_id_converter_node\x1b[0m\n'}
+[11.430977] (-) TimerEvent: {}
+[11.531382] (-) TimerEvent: {}
+[11.631722] (-) TimerEvent: {}
+[11.732031] (-) TimerEvent: {}
+[11.770091] (robot_description) StdoutLine: {'line': b'[ 83%] Built target motor_command_node\n'}
+[11.832191] (-) TimerEvent: {}
+[11.913727] (robot_description) StdoutLine: {'line': b'[ 83%] Built target frame_id_converter_node\n'}
+[11.932303] (-) TimerEvent: {}
+[12.032602] (-) TimerEvent: {}
+[12.132902] (-) TimerEvent: {}
+[12.233190] (-) TimerEvent: {}
+[12.333428] (-) TimerEvent: {}
+[12.433643] (-) TimerEvent: {}
+[12.533929] (-) TimerEvent: {}
+[12.634215] (-) TimerEvent: {}
+[12.734502] (-) TimerEvent: {}
+[12.834781] (-) TimerEvent: {}
+[12.935060] (-) TimerEvent: {}
+[13.035333] (-) TimerEvent: {}
+[13.135620] (-) TimerEvent: {}
+[13.235902] (-) TimerEvent: {}
+[13.336184] (-) TimerEvent: {}
+[13.436450] (-) TimerEvent: {}
+[13.536740] (-) TimerEvent: {}
+[13.637036] (-) TimerEvent: {}
+[13.737347] (-) TimerEvent: {}
+[13.837621] (-) TimerEvent: {}
+[13.937882] (-) TimerEvent: {}
+[14.038145] (-) TimerEvent: {}
+[14.138444] (-) TimerEvent: {}
+[14.238673] (-) TimerEvent: {}
+[14.338954] (-) TimerEvent: {}
+[14.439236] (-) TimerEvent: {}
+[14.539521] (-) TimerEvent: {}
+[14.639837] (-) TimerEvent: {}
+[14.740119] (-) TimerEvent: {}
+[14.840406] (-) TimerEvent: {}
+[14.940671] (-) TimerEvent: {}
+[15.040952] (-) TimerEvent: {}
+[15.141233] (-) TimerEvent: {}
+[15.241512] (-) TimerEvent: {}
+[15.341832] (-) TimerEvent: {}
+[15.442113] (-) TimerEvent: {}
+[15.542445] (-) TimerEvent: {}
+[15.642822] (-) TimerEvent: {}
+[15.743394] (-) TimerEvent: {}
+[15.843682] (-) TimerEvent: {}
+[15.943997] (-) TimerEvent: {}
+[16.044293] (-) TimerEvent: {}
+[16.144632] (-) TimerEvent: {}
+[16.244901] (-) TimerEvent: {}
+[16.345268] (-) TimerEvent: {}
+[16.445583] (-) TimerEvent: {}
+[16.545890] (-) TimerEvent: {}
+[16.646214] (-) TimerEvent: {}
+[16.656327] (robot_description) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ekf_diff_imu_node\x1b[0m\n'}
+[16.746348] (-) TimerEvent: {}
+[16.846670] (-) TimerEvent: {}
+[16.946996] (-) TimerEvent: {}
+[17.047305] (-) TimerEvent: {}
+[17.147605] (-) TimerEvent: {}
+[17.247870] (-) TimerEvent: {}
+[17.348119] (-) TimerEvent: {}
+[17.405767] (robot_description) StdoutLine: {'line': b'[100%] Built target ekf_diff_imu_node\n'}
+[17.412351] (robot_description) CommandEnded: {'returncode': 0}
+[17.413261] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[17.416252] (robot_description) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/faraz/robotic/build/robot_description'], 'cwd': '/home/faraz/robotic/build/robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'faraz'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '13141'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/faraz'), ('OLDPWD', '/home/faraz/robotic/robotic_course'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('SYSTEMD_EXEC_PID', '2306'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QSYS_ROOTDIR', '/home/faraz/intelFPGA_lite/22.1std/quartus/sopc_builder/bin'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/faraz/robotic/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'faraz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'faraz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/faraz-VivoBook-15-ASUS-Laptop-X570UD:@/tmp/.ICE-unix/2270,unix/faraz-VivoBook-15-ASUS-Laptop-X570UD:/tmp/.ICE-unix/2270'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4b637f52_cdac_4e20_85d1_dea1e0c359f7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5DEMG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXJTgrYd/agent.13140'), ('AMENT_PREFIX_PATH', '/home/faraz/robotic/install/robot_estimation:/home/faraz/robotic/install/robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/usr/share/ignition/gazebo/fuel/fuel.ignitionrobotics.org/openrobotics/models'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/faraz/robotic/build/robot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/faraz/robotic/build/robot_estimation:/home/faraz/robotic/install/robot_estimation/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/faraz/robotic/install/robot_description:/home/faraz/robotic/install/robot_estimation:/opt/ros/humble')]), 'shell': False}
+[17.418249] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.419112] (robot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.419823] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/src/description/robot.urdf\n'}
+[17.422258] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/src/meshes/zed.STL\n'}
+[17.424759] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/launch/display.launch.py\n'}
+[17.426931] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/launch/gazebo.launch.py\n'}
+[17.429220] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/rviz/config.rviz\n'}
+[17.431637] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/config/gz_bridge.yaml\n'}
+[17.433705] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/config/lidar.config.rviz\n'}
+[17.435864] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/config/rviz.config.rviz\n'}
+[17.438283] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/world/depot.sdf\n'}
+[17.440361] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/world/test.sdf\n'}
+[17.442663] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/scripts/ekf_diff_imu.cpp\n'}
+[17.444852] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/scripts/frame_id_converter.cpp\n'}
+[17.446988] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/scripts/motor_command.cpp\n'}
+[17.448223] (-) TimerEvent: {}
+[17.449354] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/lib/robot_description/frame_id_converter_node\n'}
+[17.451663] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/lib/robot_description/ekf_diff_imu_node\n'}
+[17.453824] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/lib/robot_description/motor_command_node\n'}
+[17.456122] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[17.458473] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[17.460738] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[17.462930] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[17.465186] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/environment/path.sh\n'}
+[17.467410] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[17.469571] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/local_setup.bash\n'}
+[17.471885] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/local_setup.sh\n'}
+[17.474089] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[17.476454] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[17.478848] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/package.dsv\n'}
+[17.481158] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[17.483384] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[17.485514] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[17.488112] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/package.xml\n'}
+[17.491887] (robot_description) CommandEnded: {'returncode': 0}
+[17.503186] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[17.503563] (-) EventReactorShutdown: {}

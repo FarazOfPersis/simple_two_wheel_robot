@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing robot_estimation.egg-info/PKG-INFO
+writing dependency_links to robot_estimation.egg-info/dependency_links.txt
+writing entry points to robot_estimation.egg-info/entry_points.txt
+writing requirements to robot_estimation.egg-info/requires.txt
+writing top-level names to robot_estimation.egg-info/top_level.txt
+reading manifest file 'robot_estimation.egg-info/SOURCES.txt'
+writing manifest file 'robot_estimation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/faraz/robotic/install/robot_estimation/lib/python3.10/site-packages/robot-estimation.egg-link (link to .)
+Installing complementary_filter_node script to /home/faraz/robotic/install/robot_estimation/lib/robot_estimation
+Installing estimator_test_node script to /home/faraz/robotic/install/robot_estimation/lib/robot_estimation
+Installing imu_filter_node script to /home/faraz/robotic/install/robot_estimation/lib/robot_estimation
+Installing motor_controller_node script to /home/faraz/robotic/install/robot_estimation/lib/robot_estimation
+Installing odometry_node script to /home/faraz/robotic/install/robot_estimation/lib/robot_estimation
+
+Installed /home/faraz/robotic/build/robot_estimation
+running symlink_data

@@ -5,6 +5,7 @@ launch/estimator.launch.py
 resource/robot_estimation
 robot_estimation/__init__.py
 robot_estimation/complementary_filter_node.py
+robot_estimation/estimator_test_node.py
 robot_estimation/imu_filter_node.py
 robot_estimation/motor_controller_node.py
 robot_estimation/odometry_node.py

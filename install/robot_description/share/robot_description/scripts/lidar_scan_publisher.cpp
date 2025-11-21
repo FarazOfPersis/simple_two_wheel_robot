@@ -1,1 +1,0 @@
-/home/faraz/robotic/src/robot_description/scripts/lidar_scan_publisher.cpp
