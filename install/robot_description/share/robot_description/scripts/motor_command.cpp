@@ -1,1 +1,1 @@
-/home/faraz/robotic/robotic_course/robot_description/scripts/motor_command.cpp
+/home/faraz/robotic/src/robot_description/scripts/motor_command.cpp

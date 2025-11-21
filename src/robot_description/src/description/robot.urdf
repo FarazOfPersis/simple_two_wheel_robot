@@ -233,7 +233,7 @@
       <sensor type="gpu_lidar" name="rplidar_c1_sensor">
           <always_on>1</always_on>
           <visualize>true</visualize>
-          <update_rate>20</update_rate>
+          <update_rate>5</update_rate>
           <topic>/gz_lidar/points</topic>
           <lidar>
               <scan>

@@ -1,5 +1,5 @@
 CMakeFiles/ekf_diff_imu_node.dir/scripts/ekf_diff_imu.cpp.o: \
- /home/faraz/robotic/robotic_course/robot_description/scripts/ekf_diff_imu.cpp \
+ /home/faraz/robotic/src/robot_description/scripts/ekf_diff_imu.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \

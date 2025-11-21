@@ -1,4 +1,4 @@
-# Install script for directory: /home/faraz/robotic/robotic_course/robot_description
+# Install script for directory: /home/faraz/robotic/src/robot_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -54,7 +54,7 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/faraz/robotic/robotic_course/robot_description
+CMAKE_SOURCE_DIR = /home/faraz/robotic/src/robot_description
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/faraz/robotic/build/robot_description
@@ -66,7 +66,6 @@ CMAKE_BINARY_DIR = /home/faraz/robotic/build/robot_description
 all: CMakeFiles/frame_id_converter_node.dir/all
 all: CMakeFiles/motor_command_node.dir/all
 all: CMakeFiles/ekf_diff_imu_node.dir/all
-all: CMakeFiles/lidar_scan_republisher.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -79,7 +78,6 @@ clean: CMakeFiles/robot_description_uninstall.dir/clean
 clean: CMakeFiles/frame_id_converter_node.dir/clean
 clean: CMakeFiles/motor_command_node.dir/clean
 clean: CMakeFiles/ekf_diff_imu_node.dir/clean
-clean: CMakeFiles/lidar_scan_republisher.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -167,7 +165,7 @@ CMakeFiles/frame_id_converter_node.dir/clean:
 CMakeFiles/motor_command_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_command_node.dir/build.make CMakeFiles/motor_command_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/motor_command_node.dir/build.make CMakeFiles/motor_command_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/faraz/robotic/build/robot_description/CMakeFiles --progress-num=7,8 "Built target motor_command_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/faraz/robotic/build/robot_description/CMakeFiles --progress-num=5,6 "Built target motor_command_node"
 .PHONY : CMakeFiles/motor_command_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -211,32 +209,6 @@ ekf_diff_imu_node: CMakeFiles/ekf_diff_imu_node.dir/rule
 CMakeFiles/ekf_diff_imu_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ekf_diff_imu_node.dir/build.make CMakeFiles/ekf_diff_imu_node.dir/clean
 .PHONY : CMakeFiles/ekf_diff_imu_node.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/lidar_scan_republisher.dir
-
-# All Build rule for target.
-CMakeFiles/lidar_scan_republisher.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_scan_republisher.dir/build.make CMakeFiles/lidar_scan_republisher.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_scan_republisher.dir/build.make CMakeFiles/lidar_scan_republisher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/faraz/robotic/build/robot_description/CMakeFiles --progress-num=5,6 "Built target lidar_scan_republisher"
-.PHONY : CMakeFiles/lidar_scan_republisher.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/lidar_scan_republisher.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/faraz/robotic/build/robot_description/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lidar_scan_republisher.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/faraz/robotic/build/robot_description/CMakeFiles 0
-.PHONY : CMakeFiles/lidar_scan_republisher.dir/rule
-
-# Convenience name for target.
-lidar_scan_republisher: CMakeFiles/lidar_scan_republisher.dir/rule
-.PHONY : lidar_scan_republisher
-
-# clean rule for target.
-CMakeFiles/lidar_scan_republisher.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_scan_republisher.dir/build.make CMakeFiles/lidar_scan_republisher.dir/clean
-.PHONY : CMakeFiles/lidar_scan_republisher.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,1 +1,1 @@
-/home/faraz/robotic/robotic_course/robot_estimation/setup.py
+/home/faraz/robotic/src/robot_estimation/setup.py

@@ -56,13 +56,6 @@
   gz_type_name: "gz.msgs.IMU"
   direction: GZ_TO_ROS
 
-# Lidar scan (Keep this GZ topic name if you confirmed it's correct in GZ)
-- ros_topic_name: "/gz_lidar/scan"
-  gz_topic_name: "/model/robot/link/rplidar_c1/sensor/rplidar_c1_sensor/scan"
-  ros_type_name: "sensor_msgs/msg/LaserScan"
-  gz_type_name: "gz.msgs.LaserScan"
-  direction: GZ_TO_ROS
-
 - ros_topic_name: "/gz_lidar/points"
   gz_topic_name: "/gz_lidar/points/points"
   ros_type_name: "sensor_msgs/msg/PointCloud2"

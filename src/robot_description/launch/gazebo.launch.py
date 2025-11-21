@@ -85,13 +85,6 @@ def generate_launch_description():
         arguments=['-d', rviz_config_file],
         output='screen'
     )   
-    lidar_scan_republisher_node = Node(
-        package='robot_description',
-        executable='lidar_scan_republisher',
-        name='lidar_scan_republisher',
-        output='screen',
-        parameters=[{'use_sim_time': True}]
-    )
 
     frame_id_converter_node = Node(
         package='robot_description',
@@ -124,7 +117,6 @@ def generate_launch_description():
         gz_resource_path,
         gz_sim,bridge,
         start_robot_state_publisher_cmd,
-        lidar_scan_republisher_node,
         frame_id_converter_node, 
         ekf_diff_imu_node,
         spawn_entity,

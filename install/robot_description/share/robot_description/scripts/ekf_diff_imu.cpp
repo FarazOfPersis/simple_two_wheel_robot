@@ -1,1 +1,1 @@
-/home/faraz/robotic/robotic_course/robot_description/scripts/ekf_diff_imu.cpp
+/home/faraz/robotic/src/robot_description/scripts/ekf_diff_imu.cpp

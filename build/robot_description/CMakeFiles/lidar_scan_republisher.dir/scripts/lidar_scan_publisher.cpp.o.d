@@ -1,5 +1,5 @@
 CMakeFiles/lidar_scan_republisher.dir/scripts/lidar_scan_publisher.cpp.o: \
- /home/faraz/robotic/robotic_course/robot_description/scripts/lidar_scan_publisher.cpp \
+ /home/faraz/robotic/src/robot_description/scripts/lidar_scan_publisher.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/faraz/robotic/robotic_course/robot_description/scripts/motor_command.cpp" "CMakeFiles/motor_command_node.dir/scripts/motor_command.cpp.o" "gcc" "CMakeFiles/motor_command_node.dir/scripts/motor_command.cpp.o.d"
+  "/home/faraz/robotic/src/robot_description/scripts/motor_command.cpp" "CMakeFiles/motor_command_node.dir/scripts/motor_command.cpp.o" "gcc" "CMakeFiles/motor_command_node.dir/scripts/motor_command.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -485,7 +485,7 @@ robot_description_BINARY_DIR:STATIC=/home/faraz/robotic/build/robot_description
 robot_description_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-robot_description_SOURCE_DIR:STATIC=/home/faraz/robotic/robotic_course/robot_description
+robot_description_SOURCE_DIR:STATIC=/home/faraz/robotic/src/robot_description
 
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/humble/share/rosgraph_msgs/cmake
@@ -660,7 +660,7 @@ CMAKE_GENERATOR_TOOLSET:INTERNAL=
 CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/faraz/robotic/robotic_course/robot_description
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/faraz/robotic/src/robot_description
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

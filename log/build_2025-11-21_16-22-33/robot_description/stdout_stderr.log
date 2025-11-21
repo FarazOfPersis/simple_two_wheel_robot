@@ -1,0 +1,35 @@
+[ 66%] Built target frame_id_converter_node
+[ 66%] Built target motor_command_node
+[100%] Built target ekf_diff_imu_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/src/description/robot.urdf
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/src/meshes/zed.STL
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/launch/display.launch.py
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/launch/gazebo.launch.py
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/rviz/config.rviz
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/config/gz_bridge.yaml
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/config/rviz.config.rviz
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/world/depot.sdf
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/world/test.sdf
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/scripts/ekf_diff_imu.cpp
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/scripts/frame_id_converter.cpp
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/scripts/motor_command.cpp
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/lib/robot_description/frame_id_converter_node
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/lib/robot_description/ekf_diff_imu_node
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/lib/robot_description/motor_command_node
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/environment/path.sh
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/environment/path.dsv
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/local_setup.bash
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/local_setup.sh
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/local_setup.zsh
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/local_setup.dsv
+-- Symlinking: /home/faraz/robotic/install/robot_description/share/robot_description/package.dsv
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/ament_index/resource_index/packages/robot_description
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/faraz/robotic/install/robot_description/share/robot_description/package.xml

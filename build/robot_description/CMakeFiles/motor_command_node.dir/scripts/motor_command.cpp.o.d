@@ -1,5 +1,5 @@
 CMakeFiles/motor_command_node.dir/scripts/motor_command.cpp.o: \
- /home/faraz/robotic/robotic_course/robot_description/scripts/motor_command.cpp \
+ /home/faraz/robotic/src/robot_description/scripts/motor_command.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \

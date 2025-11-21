@@ -57,7 +57,7 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/faraz/robotic/robotic_course/robot_description
+CMAKE_SOURCE_DIR = /home/faraz/robotic/src/robot_description
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/faraz/robotic/build/robot_description
@@ -236,19 +236,6 @@ ekf_diff_imu_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ekf_diff_imu_node.dir/build.make CMakeFiles/ekf_diff_imu_node.dir/build
 .PHONY : ekf_diff_imu_node/fast
 
-#=============================================================================
-# Target rules for targets named lidar_scan_republisher
-
-# Build rule for target.
-lidar_scan_republisher: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lidar_scan_republisher
-.PHONY : lidar_scan_republisher
-
-# fast build rule for target.
-lidar_scan_republisher/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_scan_republisher.dir/build.make CMakeFiles/lidar_scan_republisher.dir/build
-.PHONY : lidar_scan_republisher/fast
-
 scripts/ekf_diff_imu.o: scripts/ekf_diff_imu.cpp.o
 .PHONY : scripts/ekf_diff_imu.o
 
@@ -297,30 +284,6 @@ scripts/frame_id_converter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/frame_id_converter_node.dir/build.make CMakeFiles/frame_id_converter_node.dir/scripts/frame_id_converter.cpp.s
 .PHONY : scripts/frame_id_converter.cpp.s
 
-scripts/lidar_scan_publisher.o: scripts/lidar_scan_publisher.cpp.o
-.PHONY : scripts/lidar_scan_publisher.o
-
-# target to build an object file
-scripts/lidar_scan_publisher.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_scan_republisher.dir/build.make CMakeFiles/lidar_scan_republisher.dir/scripts/lidar_scan_publisher.cpp.o
-.PHONY : scripts/lidar_scan_publisher.cpp.o
-
-scripts/lidar_scan_publisher.i: scripts/lidar_scan_publisher.cpp.i
-.PHONY : scripts/lidar_scan_publisher.i
-
-# target to preprocess a source file
-scripts/lidar_scan_publisher.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_scan_republisher.dir/build.make CMakeFiles/lidar_scan_republisher.dir/scripts/lidar_scan_publisher.cpp.i
-.PHONY : scripts/lidar_scan_publisher.cpp.i
-
-scripts/lidar_scan_publisher.s: scripts/lidar_scan_publisher.cpp.s
-.PHONY : scripts/lidar_scan_publisher.s
-
-# target to generate assembly for a file
-scripts/lidar_scan_publisher.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lidar_scan_republisher.dir/build.make CMakeFiles/lidar_scan_republisher.dir/scripts/lidar_scan_publisher.cpp.s
-.PHONY : scripts/lidar_scan_publisher.cpp.s
-
 scripts/motor_command.o: scripts/motor_command.cpp.o
 .PHONY : scripts/motor_command.o
 
@@ -362,7 +325,6 @@ help:
 	@echo "... uninstall"
 	@echo "... ekf_diff_imu_node"
 	@echo "... frame_id_converter_node"
-	@echo "... lidar_scan_republisher"
 	@echo "... motor_command_node"
 	@echo "... scripts/ekf_diff_imu.o"
 	@echo "... scripts/ekf_diff_imu.i"
@@ -370,9 +332,6 @@ help:
 	@echo "... scripts/frame_id_converter.o"
 	@echo "... scripts/frame_id_converter.i"
 	@echo "... scripts/frame_id_converter.s"
-	@echo "... scripts/lidar_scan_publisher.o"
-	@echo "... scripts/lidar_scan_publisher.i"
-	@echo "... scripts/lidar_scan_publisher.s"
 	@echo "... scripts/motor_command.o"
 	@echo "... scripts/motor_command.i"
 	@echo "... scripts/motor_command.s"

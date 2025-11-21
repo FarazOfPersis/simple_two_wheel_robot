@@ -1,0 +1,9 @@
+[ 25%] Built target frame_id_converter_node
+[ 50%] Built target motor_command_node
+[ 75%] Built target ekf_diff_imu_node
+[ 87%] [32mBuilding CXX object CMakeFiles/lidar_scan_republisher.dir/scripts/lidar_scan_publisher.cpp.o[0m
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/faraz/robotic/src/robot_description/scripts/lidar_scan_publisher.cpp: No such file or directory
+compilation terminated.
+gmake[2]: *** [CMakeFiles/lidar_scan_republisher.dir/build.make:76: CMakeFiles/lidar_scan_republisher.dir/scripts/lidar_scan_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/lidar_scan_republisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

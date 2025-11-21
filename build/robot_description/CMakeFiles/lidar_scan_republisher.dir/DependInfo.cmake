@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/faraz/robotic/robotic_course/robot_description/scripts/lidar_scan_publisher.cpp" "CMakeFiles/lidar_scan_republisher.dir/scripts/lidar_scan_publisher.cpp.o" "gcc" "CMakeFiles/lidar_scan_republisher.dir/scripts/lidar_scan_publisher.cpp.o.d"
+  "/home/faraz/robotic/src/robot_description/scripts/lidar_scan_publisher.cpp" "CMakeFiles/lidar_scan_republisher.dir/scripts/lidar_scan_publisher.cpp.o" "gcc" "CMakeFiles/lidar_scan_republisher.dir/scripts/lidar_scan_publisher.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

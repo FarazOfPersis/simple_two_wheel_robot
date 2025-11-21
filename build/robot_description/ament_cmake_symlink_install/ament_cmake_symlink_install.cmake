@@ -311,49 +311,49 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "src" "launch" "rviz" "config" "world" "scripts" "DESTINATION" "share/robot_description")
-ament_cmake_symlink_install_directory("/home/faraz/robotic/robotic_course/robot_description" DIRECTORY "src" "launch" "rviz" "config" "world" "scripts" "DESTINATION" "share/robot_description")
+ament_cmake_symlink_install_directory("/home/faraz/robotic/src/robot_description" DIRECTORY "src" "launch" "rviz" "config" "world" "scripts" "DESTINATION" "share/robot_description")
 
-# install("TARGETS" "frame_id_converter_node" "ekf_diff_imu_node" "motor_command_node" "lidar_scan_republisher" "DESTINATION" "lib/robot_description")
+# install("TARGETS" "frame_id_converter_node" "ekf_diff_imu_node" "motor_command_node" "DESTINATION" "lib/robot_description")
 include("/home/faraz/robotic/build/robot_description/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/faraz/robotic/build/robot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/faraz/robotic/robotic_course/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/faraz/robotic/src/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robot_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
 # install(FILES "/home/faraz/robotic/build/robot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/faraz/robotic/robotic_course/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/faraz/robotic/src/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/robot_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/robot_description/environment")
-ament_cmake_symlink_install_files("/home/faraz/robotic/robotic_course/robot_description" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/robot_description/environment")
+ament_cmake_symlink_install_files("/home/faraz/robotic/src/robot_description" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/robot_description/environment")
 
 # install(FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/robot_description/environment")
-ament_cmake_symlink_install_files("/home/faraz/robotic/robotic_course/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/robot_description/environment")
+ament_cmake_symlink_install_files("/home/faraz/robotic/src/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/robot_description/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/robot_description/environment")
-ament_cmake_symlink_install_files("/home/faraz/robotic/robotic_course/robot_description" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/robot_description/environment")
+ament_cmake_symlink_install_files("/home/faraz/robotic/src/robot_description" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/robot_description/environment")
 
 # install(FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/robot_description/environment")
-ament_cmake_symlink_install_files("/home/faraz/robotic/robotic_course/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/robot_description/environment")
+ament_cmake_symlink_install_files("/home/faraz/robotic/src/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/robot_description/environment")
 
 # install(FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/robot_description")
-ament_cmake_symlink_install_files("/home/faraz/robotic/robotic_course/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/robot_description")
+ament_cmake_symlink_install_files("/home/faraz/robotic/src/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/robot_description")
 
 # install(FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/robot_description")
-ament_cmake_symlink_install_files("/home/faraz/robotic/robotic_course/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/robot_description")
+ament_cmake_symlink_install_files("/home/faraz/robotic/src/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/robot_description")
 
 # install(FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/robot_description")
-ament_cmake_symlink_install_files("/home/faraz/robotic/robotic_course/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/robot_description")
+ament_cmake_symlink_install_files("/home/faraz/robotic/src/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/robot_description")
 
 # install(FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/robot_description")
-ament_cmake_symlink_install_files("/home/faraz/robotic/robotic_course/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/robot_description")
+ament_cmake_symlink_install_files("/home/faraz/robotic/src/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/robot_description")
 
 # install(FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/robot_description")
-ament_cmake_symlink_install_files("/home/faraz/robotic/robotic_course/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/robot_description")
+ament_cmake_symlink_install_files("/home/faraz/robotic/src/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/robot_description")
 
 # install(FILES "/home/faraz/robotic/build/robot_description/ament_cmake_index/share/ament_index/resource_index/packages/robot_description" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/faraz/robotic/robotic_course/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_index/share/ament_index/resource_index/packages/robot_description" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/faraz/robotic/src/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_index/share/ament_index/resource_index/packages/robot_description" "DESTINATION" "share/ament_index/resource_index/packages")
 
 # install(FILES "/home/faraz/robotic/build/robot_description/ament_cmake_core/robot_descriptionConfig.cmake" "/home/faraz/robotic/build/robot_description/ament_cmake_core/robot_descriptionConfig-version.cmake" "DESTINATION" "share/robot_description/cmake")
-ament_cmake_symlink_install_files("/home/faraz/robotic/robotic_course/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_core/robot_descriptionConfig.cmake" "/home/faraz/robotic/build/robot_description/ament_cmake_core/robot_descriptionConfig-version.cmake" "DESTINATION" "share/robot_description/cmake")
+ament_cmake_symlink_install_files("/home/faraz/robotic/src/robot_description" FILES "/home/faraz/robotic/build/robot_description/ament_cmake_core/robot_descriptionConfig.cmake" "/home/faraz/robotic/build/robot_description/ament_cmake_core/robot_descriptionConfig-version.cmake" "DESTINATION" "share/robot_description/cmake")
 
-# install(FILES "/home/faraz/robotic/robotic_course/robot_description/package.xml" "DESTINATION" "share/robot_description")
-ament_cmake_symlink_install_files("/home/faraz/robotic/robotic_course/robot_description" FILES "/home/faraz/robotic/robotic_course/robot_description/package.xml" "DESTINATION" "share/robot_description")
+# install(FILES "/home/faraz/robotic/src/robot_description/package.xml" "DESTINATION" "share/robot_description")
+ament_cmake_symlink_install_files("/home/faraz/robotic/src/robot_description" FILES "/home/faraz/robotic/src/robot_description/package.xml" "DESTINATION" "share/robot_description")

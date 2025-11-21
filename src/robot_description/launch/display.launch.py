@@ -49,14 +49,6 @@ def generate_launch_description():
         output='screen',
         arguments=['-d', LaunchConfiguration('rvizconfig')],
     )
-
-    lidar_scan_republisher_node = Node(
-        package='robot_description',
-        executable='lidar_scan_republisher',
-        name='lidar_scan_republisher',
-        output='screen',
-        parameters=[{'use_sim_time': True}]
-    )
     
     return LaunchDescription([
         DeclareLaunchArgument(name='gui', default_value='True', description='Flag to enable joint_state_publisher_gui'),
@@ -65,6 +57,5 @@ def generate_launch_description():
         joint_state_publisher_node,
         joint_state_publisher_gui_node,
         robot_state_publisher_node,
-        lidar_scan_republisher_node,
         rviz_node, 
     ])

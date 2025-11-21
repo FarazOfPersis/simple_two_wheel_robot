@@ -29,15 +29,13 @@ ament_target_dependencies(ekf_diff_imu_node
   rclcpp
   nav_msgs
   sensor_msgs
+
+
   std_srvs
   tf2
   tf2_ros
   geometry_msgs
 )
-
-add_executable(lidar_scan_republisher scripts/lidar_scan_publisher.cpp)
-ament_target_dependencies(lidar_scan_republisher rclcpp sensor_msgs)
-
 
 install(
   DIRECTORY src launch rviz config world scripts
@@ -49,7 +47,6 @@ install(
     frame_id_converter_node
     ekf_diff_imu_node
     motor_command_node
-    lidar_scan_republisher
     DESTINATION lib/${PROJECT_NAME}
 )
 

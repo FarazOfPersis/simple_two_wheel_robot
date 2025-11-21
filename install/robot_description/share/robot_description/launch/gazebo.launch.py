@@ -1,1 +1,1 @@
-/home/faraz/robotic/robotic_course/robot_description/launch/gazebo.launch.py
+/home/faraz/robotic/src/robot_description/launch/gazebo.launch.py
