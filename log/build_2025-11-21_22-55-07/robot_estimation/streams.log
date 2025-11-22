@@ -1,0 +1,21 @@
+[0.609s] Invoking command in '/home/faraz/robotic/build/robot_estimation': PYTHONPATH=/home/faraz/robotic/build/robot_estimation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faraz/robotic/install/robot_estimation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/faraz/robotic/build/robot_estimation/build --no-deps symlink_data
+[0.865s] running develop
+[1.031s] running egg_info
+[1.031s] writing robot_estimation.egg-info/PKG-INFO
+[1.032s] writing dependency_links to robot_estimation.egg-info/dependency_links.txt
+[1.032s] writing entry points to robot_estimation.egg-info/entry_points.txt
+[1.032s] writing requirements to robot_estimation.egg-info/requires.txt
+[1.032s] writing top-level names to robot_estimation.egg-info/top_level.txt
+[1.034s] reading manifest file 'robot_estimation.egg-info/SOURCES.txt'
+[1.035s] writing manifest file 'robot_estimation.egg-info/SOURCES.txt'
+[1.037s] running build_ext
+[1.037s] Creating /home/faraz/robotic/install/robot_estimation/lib/python3.10/site-packages/robot-estimation.egg-link (link to .)
+[1.038s] Installing complementary_filter_node script to /home/faraz/robotic/install/robot_estimation/lib/robot_estimation
+[1.038s] Installing estimator_test_node script to /home/faraz/robotic/install/robot_estimation/lib/robot_estimation
+[1.038s] Installing imu_filter_node script to /home/faraz/robotic/install/robot_estimation/lib/robot_estimation
+[1.038s] Installing motor_controller_node script to /home/faraz/robotic/install/robot_estimation/lib/robot_estimation
+[1.039s] Installing odometry_node script to /home/faraz/robotic/install/robot_estimation/lib/robot_estimation
+[1.039s] 
+[1.039s] Installed /home/faraz/robotic/build/robot_estimation
+[1.039s] running symlink_data
+[1.066s] Invoked command in '/home/faraz/robotic/build/robot_estimation' returned '0': PYTHONPATH=/home/faraz/robotic/build/robot_estimation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/faraz/robotic/install/robot_estimation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/faraz/robotic/build/robot_estimation/build --no-deps symlink_data
