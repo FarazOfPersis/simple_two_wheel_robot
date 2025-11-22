@@ -149,22 +149,8 @@ Launches the complete Gazebo simulation with:
 - Includes lidar visualization of the surrounding obstacles in 3d
 - Stores visualization parameters for consistent display
 
+![Alt Text](images/gazebo_rviz.png)
 ---
-
-### 2. `robot_estimation` Package
-
-#### Purpose
-Implements sensor processing, filtering, and state estimation for the robot.
-
-#### Components
-- Lowpass filters for sensor noise reduction
-- Complementary filter for orientation estimation
-- Motor controller for wheel velocity commands
-- Motion model for differential drive control
-- Odometry calculation and publishing
-
----
-
 ## 🔍 Sensor Integration
 
 ### LiDAR Sensor
@@ -212,6 +198,20 @@ Implements sensor processing, filtering, and state estimation for the robot.
 
 ---
 
+### 2. `robot_estimation` Package
+
+#### Purpose
+Implements sensor processing, filtering, and state estimation for the robot.
+
+#### Components
+- Lowpass filters for sensor noise reduction
+- Complementary filter for orientation estimation
+- Motor controller for wheel velocity commands
+- Motion model for differential drive control
+- Odometry calculation and publishing
+
+---
+
 ## 🎛️ Estimation Pipeline
 
 ### Filters and Controllers
@@ -229,6 +229,7 @@ Implements sensor processing, filtering, and state estimation for the robot.
 **File:** `estimator.launch.py`
 
 Launches all estimation nodes including filters, controllers, and odometry calculation.
+![Alt Text](images/test_results.png)
 
 ---
 
